@@ -20,7 +20,7 @@
     <themes> 
         <theme name="Football"  collapsed="false" id="habitant" icon="fas fa-futbol">
 			<layer id="clubs_football" url="data/clubs_football.geojson" name="Clubs du monde"  visible="false" tiled="false"
-				searchable="false" queryable="true" type="geojson">
+				searchable="false" queryable="true" type="geojson" style="circle1">
 			</layer>
 			<layer id="rp_struct_pop_geom" name="Densité de population (hab/km²)"  visible="false" tiled="false"
 				searchable="false" queryable="true"
