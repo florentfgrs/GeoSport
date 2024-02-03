@@ -18,7 +18,7 @@
     <searchparameters bbox="false" localities="true" features="false" />   
 
     <themes> 
-        <theme name="Population"  collapsed="false" id="habitant" icon="fas fa-users">
+        <theme name="Football"  collapsed="false" id="habitant" icon="img/themes/football.png">
 			<layer id="rp_struct_pop_geom" name="Densité de population (hab/km²)"  visible="false" tiled="false"
 				searchable="false" queryable="true"
 				attributefilter="true" attributefield="level" attributevalues="Commune,EPCI,Pays"  attributelabel="Échelle" attributestylesync="true" attributefilterenabled="true"
