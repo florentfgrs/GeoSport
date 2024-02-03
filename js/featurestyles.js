@@ -1,6 +1,31 @@
 var mviewer = mviewer || {};
 mviewer.featureStyles = {};
 
+mviewer.featureStyles.clubs_football = new ol.style.Style({
+  image: new ol.style.Circle({
+    radius: 5,
+    fill: new ol.style.Fill({
+      color: "#3AA8B3", opacity: 0.5
+    }),
+    stroke: new ol.style.Stroke({
+      color: "#095A62",
+      width: 0.5,
+    }),
+  }),
+  text: new ol.style.Text({
+    text: "Blabla",
+    offsetY: -10, // Ajustez cette valeur pour positionner l'étiquette
+    fill: new ol.style.Fill({
+      color: '#000' // Couleur du texte
+    }),
+    stroke: new ol.style.Stroke({
+      color: '#fff', // Couleur du contour du texte
+      width: 2
+    }),
+  }),
+  minResolution: 1 / 50000, // Ajustez cette valeur en fonction du niveau de zoom souhaité (1/50000 est un exemple)
+});
+
 mviewer.featureStyles.elsStyle = new ol.style.Style({
   fill: new ol.style.Fill({
     color: "rgba(47, 194, 195, 0.2)",
