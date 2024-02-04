@@ -13,7 +13,7 @@ mviewer.featureStyles.clubs_football = new ol.style.Style({
     }),
   }),
   text: new ol.style.Text({
-    text: "Blabla",
+    text: "nom_club", 
     offsetY: -10, // Ajustez cette valeur pour positionner l'étiquette
     fill: new ol.style.Fill({
       color: '#000' // Couleur du texte
