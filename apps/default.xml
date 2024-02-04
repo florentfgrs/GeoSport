@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-    <application title="GeoSport" mouseposition="false" logo="img/geosport.png" help="mviewer_help.html" measuretools="true" mapprint="true" exportpng="true" style="css/themes/blue.css" togglealllayersfromtheme="true"/>
+    <application title="GeoSport" mouseposition="false" logo="img/logo-fav-icon.png" help="mviewer_help.html" measuretools="true" mapprint="true" exportpng="true" style="css/themes/blue.css" togglealllayersfromtheme="true"/>
     <mapoptions maxzoom="16" projection="EPSG:3857" center="-220750.13768758904,6144925.57790189" zoom="8" projextent="-20037508.342789244, -20037508.342789244, 20037508.342789244, 20037508.342789244" />
   
     <baselayers style="gallery">
