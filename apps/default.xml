@@ -23,6 +23,7 @@
 				searchable="false" queryable="true" type="geojson" style="clubs_football">
 			</layer>       
         </theme>
+        <!--
         <theme name-"Basket-ball" collapsed="false" id="basket" icon="fa-duotone fa-basketball">
         </theme>
         <theme name-"Cyclisme" collapsed="false" id="cyclisme" icon="fa-sharp fa-solid fa-person-biking">
@@ -34,5 +35,6 @@
         <theme name-"Tennis" collapsed="false" id="tennis" icon="fa-solid fa-tennis-ball">
         </theme>
         <theme name-"Sports US" collapsed="false" id="us" icon="fa-sharp fa-solid fa-football">
+        -->
     </themes>
 </config>
