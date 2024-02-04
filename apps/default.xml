@@ -18,10 +18,21 @@
     <searchparameters bbox="false" localities="true" features="false" />   
 
     <themes> 
-        <theme name="Football"  collapsed="false" id="habitant" icon="fas fa-futbol">
+        <theme name="Football"  collapsed="false" id="foot" icon="fas fa-futbol">
 			<layer id="clubs_football" url="data/clubs_football.geojson" name="Clubs du monde"  visible="false" tiled="false"
 				searchable="false" queryable="true" type="geojson" style="clubs_football">
 			</layer>       
         </theme>
+        <theme name-"Basket-ball" collapsed="false" id="basket" icon="fa-duotone fa-basketball">
+        </theme>
+        <theme name-"Cyclisme" collapsed="false" id="cyclisme" icon="fa-sharp fa-solid fa-person-biking">
+        </theme>
+        <theme name-"Rugby" collapsed="false" id="rugby" icon="fa-solid fa-rugby-ball">
+        </theme>
+        <theme name-"Forumule 1" collapsed="false" id="f1" icon="fa-sharp fa-solid fa-flag-checkered">
+        </theme>
+        <theme name-"Tennis" collapsed="false" id="tennis" icon="fa-solid fa-tennis-ball">
+        </theme>
+        <theme name-"Sports US" collapsed="false" id="us" icon="fa-sharp fa-solid fa-football">
     </themes>
 </config>
