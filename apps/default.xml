@@ -20,7 +20,8 @@
     <themes> 
         <theme name="Football"  collapsed="false" id="foot" icon="fas fa-futbol">
 			<layer id="clubs_football" url="data/clubs_football.geojson" name="Clubs du monde"  visible="false" tiled="false"
-				searchable="false" queryable="true" type="geojson" style="clubs_football">
+				searchable="false" queryable="true" type="geojson" style="clubs_football" tooltip="true" tooltipcontent="{{nom_club}} &lt;/br&gt; {{stade}} ({{capacite}} places)"
+                vectorlegend="true">
 			</layer>       
         </theme>
         <!--

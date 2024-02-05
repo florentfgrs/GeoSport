@@ -13,7 +13,7 @@ mviewer.featureStyles.clubs_football = new ol.style.Style({
     }),
   }),
   text: new ol.style.Text({
-    text: "nom_club", 
+    text: textLabelClubFootball, 
     offsetY: -10, // Ajustez cette valeur pour positionner l'étiquette
     fill: new ol.style.Fill({
       color: '#000' // Couleur du texte
@@ -23,8 +23,13 @@ mviewer.featureStyles.clubs_football = new ol.style.Style({
       width: 2
     }),
   }),
-  minResolution: 1 / 50000, // Ajustez cette valeur en fonction du niveau de zoom souhaité (1/50000 est un exemple)
+  minResolution: 8, // Ajustez cette valeur en fonction du niveau de zoom souhaité (1/50000 est un exemple)
 });
+
+var textLabelClubFootball = function (feature) {
+  var value = feature.get("nom_club")
+  return value;
+}
 
 mviewer.featureStyles.elsStyle = new ol.style.Style({
   fill: new ol.style.Fill({
