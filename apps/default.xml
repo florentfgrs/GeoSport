@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <application title="GeoSport" mouseposition="false" logo="img/logo-fav-icon.png" help="mviewer_help.html" measuretools="true" mapprint="true" exportpng="true" style="css/themes/blue.css" togglealllayersfromtheme="true"/>
-    <mapoptions maxzoom="16" projection="EPSG:3857" center="-220750.13768758904,6144925.57790189" zoom="8" projextent="-20037508.342789244, -20037508.342789244, 20037508.342789244, 20037508.342789244" />
+    <mapoptions maxzoom="16" projection="EPSG:3857" center="0,0" zoom="3" projextent="-20037508.342789244, -20037508.342789244, 20037508.342789244, 20037508.342789244" />
   
     <baselayers style="gallery">
         <baselayer type="OSM" id="osm1" label="OpenStreetMap" title="OpenStreetMap" thumbgallery="img/basemap/osm.png" url="http://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -22,7 +22,9 @@
 			<layer id="clubs_football" url="data/clubs_football.geojson" name="Clubs du monde"  visible="false" tiled="false"
 				searchable="false" queryable="true" type="geojson" style="clubs_football" tooltip="true" tooltipcontent="{{nom_club}} &lt;/br&gt; {{stade}} ({{capacite}} places)"
                 vectorlegend="true">
-			</layer>       
+			</layer>
+			<layer name="Clubs du monde (custom layer)" id="clubs_football_custom" url="js/custom_layer/club_football.js" type="customlayer" tooltip="true" tooltipcontent="{{nom_club}} &lt;/br&gt; {{stade}} ({{capacite}} places)">
+			</layer> 
         </theme>
         <!--
         <theme name-"Basket-ball" collapsed="false" id="basket" icon="fa-duotone fa-basketball">
